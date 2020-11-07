@@ -1,0 +1,473 @@
+h1,
+h2,
+h5,
+h4,
+hr,
+span,
+p,
+img {
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+/*.container {
+    width: 1180px;
+    margin: 0 auto;
+    @media screen and(max-width: 768px) {
+        width: 100%;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+}*/
+.maincontainer {
+  margin: 80px 60px 0px 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .maincontainer {
+    width: 100%;
+    padding: 0px 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0px;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 30%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#800040), to(#ecc6d9));
+  background: linear-gradient(#800040, #ecc6d9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /*  @media screen and(max-width: 768px) {
+width: 100%;
+height: 30%;
+    }*/
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    background: none;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar #res {
+    background-image: url("SW.png");
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background-position: center;
+    -webkit-box-shadow: 5px 5px 13px 0 rgba(204, 22, 134, 0.3);
+            box-shadow: 5px 5px 13px 0 rgba(204, 22, 134, 0.3);
+    display: block;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+  }
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    display: none;
+    width: 100%;
+    background: #fff;
+    color: black;
+    width: 100% !important;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    height: 100%;
+    text-align: center;
+  }
+}
+
+.navbar ul li {
+  text-decoration: none;
+  display: block;
+  padding: 20px 0px;
+}
+
+.navbar ul li img {
+  background-color: #ecc6d9;
+  border-radius: 20%;
+  margin: 10px;
+  /*  @media screen and(max-width: 768px) {
+                        margin-top: 220px;
+                        background-color: transparent ;
+                            }  */
+}
+
+.navbar ul li h1 {
+  font-family: 'Pacifico', cursive;
+  color: #ecc6d9;
+  font-size: 26px;
+  /*  @media screen and(max-width: 768px) {
+                        color:white;
+                            }  */
+}
+
+.navbar ul li a {
+  /* @media screen and(max-width: 768px) {
+                        display: none;
+                        top:200px;
+                        position: absolute;
+                        background-color: #ecc6d9;
+                        
+                               }*/
+  text-decoration: none;
+  color: #800040;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+}
+
+.navbar ul li a:hover {
+  color: #ecc6d9;
+}
+
+.navbar ul li a:active {
+  color: wheat;
+}
+
+.main_content {
+  margin-left: 30%;
+  font-family: 'Dancing Script', cursive;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .main_content {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_content #one {
+    width: 100%;
+  }
+}
+
+.main_content #one img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .main_content #one img {
+    width: 100%;
+    margin: 0px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+.main_content #two .maincontainer h1 {
+  font-size: 46px;
+  color: #800040;
+  margin-bottom: 60px;
+}
+
+.main_content #two .maincontainer p {
+  font-size: 26px;
+}
+
+.main_content #three .maincontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .main_content #three .maincontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.main_content #three .maincontainer div img {
+  width: 277.19;
+  height: 400.78;
+}
+
+@media screen and (max-width: 768px) {
+  .main_content #three .maincontainer div img {
+    margin-top: 30px;
+  }
+}
+
+.main_content #three .maincontainer div {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main_content #three .maincontainer div h1 {
+  font-size: 46px;
+  color: #800040;
+  margin-bottom: 60px;
+}
+
+.main_content #three .maincontainer div p {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.main_content #three .maincontainer div button {
+  background-color: #800040;
+  border: none;
+  padding: 18px 40px;
+  width: 250.09px;
+  height: 69px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
+
+.main_content #three .maincontainer div button a {
+  text-decoration: none;
+  color: #ecc6d9;
+  font-family: 'Dancing Script', cursive;
+}
+
+.main_content #four .maincontainer h1 {
+  font-size: 46px;
+  color: #800040;
+  margin-bottom: 60px;
+}
+
+.main_content #four .maincontainer div img {
+  width: 148px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 5px;
+  height: 148.53px;
+}
+
+@media screen and (max-width: 768px) {
+  .main_content #four .maincontainer div img {
+    margin-top: 5px;
+  }
+}
+
+.main_content #five .maincontainer h1 {
+  font-size: 46px;
+  color: #800040;
+  margin-bottom: 60px;
+}
+
+.main_content #five .maincontainer div img {
+  width: 251.9px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 5px;
+  height: 148.53px;
+}
+
+@media screen and (max-width: 768px) {
+  .main_content #five .maincontainer div img {
+    margin-top: 5px;
+  }
+}
+
+.main_content #six .maincontainer h1 {
+  font-size: 46px;
+  color: #800040;
+  margin-bottom: 60px;
+}
+
+.main_content #six .maincontainer div img {
+  width: 187.9px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 5px;
+  height: 148.53px;
+}
+
+@media screen and (max-width: 768px) {
+  .main_content #six .maincontainer div img {
+    margin-top: 5px;
+  }
+}
+
+.main_content #siven .maincontainer h1 {
+  font-size: 46px;
+  color: #800040;
+  margin-bottom: 60px;
+}
+
+.main_content #siven .maincontainer .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .main_content #siven .maincontainer .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main_content #siven .maincontainer .content div {
+  margin-right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main_content #siven .maincontainer .content div form input[type=text] {
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #800040;
+  width: 298px;
+  height: 43px;
+  color: #800040;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.main_content #siven .maincontainer .content div form input[type=text]::-webkit-input-placeholder {
+  color: #800040;
+}
+
+.main_content #siven .maincontainer .content div form input[type=text]:-ms-input-placeholder {
+  color: #800040;
+}
+
+.main_content #siven .maincontainer .content div form input[type=text]::-ms-input-placeholder {
+  color: #800040;
+}
+
+.main_content #siven .maincontainer .content div form input[type=text]::placeholder {
+  color: #800040;
+}
+
+.main_content #siven .maincontainer .content div form button {
+  background-color: #800040;
+  border: none;
+  width: 298px;
+  height: 63px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
+
+.main_content #siven .maincontainer .content div form button a {
+  text-decoration: none;
+  color: #ecc6d9;
+  font-family: 'Dancing Script', cursive;
+}
+
+.main_content #siven .maincontainer .content div form textarea {
+  border: 2px solid #800040;
+  width: 298px;
+  height: 240px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #800040;
+  font-family: 'Dancing Script', cursive;
+}
+
+.main_content #siven .maincontainer .content div form textarea::-webkit-input-placeholder {
+  color: #800040;
+}
+
+.main_content #siven .maincontainer .content div form textarea:-ms-input-placeholder {
+  color: #800040;
+}
+
+.main_content #siven .maincontainer .content div form textarea::-ms-input-placeholder {
+  color: #800040;
+}
+
+.main_content #siven .maincontainer .content div form textarea::placeholder {
+  color: #800040;
+}
+
+.main_content #siven .maincontainer .content div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main_content #siven .maincontainer .content div p {
+  font-size: 26px;
+  line-height: 1.9em;
+  margin-bottom: 20px;
+}
+
+.main_content .footer .maincontainer {
+  font-family: 'Dancing Script', cursive;
+  font-size: 26px;
+}
+
+.main_content .footer .maincontainer p span {
+  color: #800040;
+}
+/*# sourceMappingURL=main.css.map */
